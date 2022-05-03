@@ -45,11 +45,15 @@ main {
 }
 
 img {
-  max-width: none;
+  max-width: 50%;
+  display: grid;
+  
 }
 
-.fig-1 {
-  max-width: 240px;
+.fig-1 .fig-2 {
+  max-width:none;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 picture {
@@ -58,9 +62,6 @@ picture {
   max-width: none;
 }
 
-.fig-2 {
-  display: none;
-}
 
 @supports (display: grid) {
   /* Text Elements */

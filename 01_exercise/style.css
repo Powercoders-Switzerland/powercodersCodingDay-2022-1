@@ -24,13 +24,14 @@ h1 {
 } 
 
 .eyes {
-	
+	align-items: center;
 }
 
 .upper_body { 
 	width: 300px; 
 	height: 150px;
 	display: flex; 
+	margin: 0 auto;
 } 
 
 .left_arm, .right_arm { 
@@ -40,17 +41,18 @@ h1 {
 } 
 
 .left_arm { 
-	margin-right: 10px; 
+	margin:0 auto ;
 } 
 
 .right_arm { 
-	margin-left: 10px; 
+	margin-left:0 auto;
 } 
 
 .torso { 
 	width: 200px; 
 	height: 200px;
 	border-radius: 0 0 50px 50px; 
+	margin: 0 auto;
 } 
 
 .lower_body { 
@@ -80,7 +82,7 @@ h1 {
 }
 
 .right_leg { 
-	margin-left: 30px; 
+	margin-left: 45px; 
 }
 
 .left_eye, .right_eye { 
