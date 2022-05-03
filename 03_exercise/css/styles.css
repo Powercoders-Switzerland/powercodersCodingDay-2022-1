@@ -50,8 +50,8 @@ img {
   
 }
 
-.fig-1 {
-  max-width: 50%;
+.fig-1 .fig-2 {
+  max-width:none;
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -62,10 +62,6 @@ picture {
   max-width: none;
 }
 
-.fig-2 {
-  display: grid;
-  grid-template-columns: 1fr;
-}
 
 @supports (display: grid) {
   /* Text Elements */

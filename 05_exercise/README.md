@@ -6,3 +6,17 @@ Output: Wednesday
 
 Estimated time: 15 minutes <br>
 Total points: 15 
+
+var getLastValue = [ "Monday","Thursday","Saturday","Wednesday","Tuesday" ];
+var sorted = getLastValue.sort(function(a, b) {
+
+    if (a[a.length - 1] > b[b.length - 1])
+        return 1;
+    else if (a[a.length - 1] < b[b.length - 1])
+        return -1;
+
+    return 0;
+
+})
+
+console.log(sorted)

@@ -28,3 +28,4 @@ var books = [
       console.log('The book is in stock "' + bookInfo);
     }
   }
+
